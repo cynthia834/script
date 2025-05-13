@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Manipulation Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        #dynamicText {
+            font-size: 20px;
+            color: blue;
+        }
+        #addedElement {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: lightgreen;
+            border: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to JavaScript DOM Manipulation</h1>
+    </header>
+
+    <section>
+        <p id="dynamicText">This text will change when you click the button below.</p>
+        <button id="changeTextBtn">Change Text</button>
+        <button id="toggleStyleBtn">Change Text Style</button>
+    </section>
+
+    <section>
+        <h2>Manipulate Elements</h2>
+        <button id="addElementBtn">Add Element</button>
+        <button id="removeElementBtn">Remove Element</button>
+        <div id="addedElement" style="display: none;">
+            <p>This is a dynamically added element!</p>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
